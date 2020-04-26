@@ -8,3 +8,4 @@ public class InputOutput{
 		Nama = scanner.nextLime();
 |
 	}
+}
