@@ -6,5 +6,5 @@ public class InputOutput{
 		String nama;
 		System.out.print("Masukkan Nama Anda: ");
 		Nama = scanner.nextLime();
-|
+		System.out.println("Hai, "+Nama);
 	}
