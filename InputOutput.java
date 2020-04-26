@@ -8,3 +8,4 @@ public class InputOutput{
 		nama = scanner.nextLime();
 		System.out.println("Hai, "+nama);
 	}
+}
