@@ -7,5 +7,14 @@ public class InputOutput{
 		System.out.print("Masukkan Nama Anda: ");
 		nama = scanner.nextLine();
 		System.out.println("Hai, "+nama);
+		
+		System.out.print("Masukkan jumlah SKS yang sudah ditempuh: ");
+		jumlahSks = scanner.nextInt();
+
+		System.out.print("Masukkan IPK Sementara: ");
+		IPK = scanner.nextDouble();
+
+		double jumlah = IPK * jumlahSks;
+		System.out.print("Total Nilai = "+jumlah);
 	}
 }
